@@ -1,0 +1,50 @@
+body {
+    font-size: 1rem
+}
+
+.wrapper{
+    margin: 0;
+    max-width: 60rem;
+    width: 100%;
+}
+
+.wrapper--image{
+    display: flex;
+    margin: auto;
+    widows: 100%;
+}
+
+.wrapper--image img{
+    height: auto;
+    width: 100;
+}
+
+
+.modal-overlay{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+
+}
+.modal-content{
+    background-color: #fff;
+    margin: auto;
+    width: 640px;
+    padding: 16px;
+}
+.modal-content .modal-close{
+    background-color: 0000;
+    color:#fff;
+    position: absolute;
+    font-size: 16px;
+    padding: 4px
+
+}
